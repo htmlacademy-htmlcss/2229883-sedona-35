@@ -3,6 +3,7 @@
      <head>
           <meta charset="utf-8" />
           <title>Sedona</title>
+          <link rel="stylesheet" href="styles/styles.css">
      </head>
 
      <body>
@@ -20,7 +21,7 @@
                               <a class="navigation-link" href="hotels.html">Гостиницы</a>
                          </li>
                     </ul>
-                    <ul class="navigation-list navigation-user">
+                    <ul class="navigation-user">
                          <li class="navigation-item">
                               <a class="navigation-link" href="#"></a>
                               <span class="visually-hidden">Кнопка поиск.</span>
@@ -36,18 +37,24 @@
                     </ul>
                </nav>
           </header>
-          <main class="main-index">
+           <main class="main-container main-index">
+            <div class="page-container">
                <section class="advantages"></section>
-               <img class="logo" src="images/main-welcome.svg" width="458" height="352" alt="Логотип Welcome." />
-               <h3><b>СЕДОНА-НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ, ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</b></h3>
-               <h5>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</h5>
+               <div class="welcome-anthem">
+               <img class="welcome-logo" src="images/main-welcome.svg" width="458" height="352" alt="Логотип Welcome." />
+          </div>
+          <h1>СЕДОНА-НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,
+               ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!
+          </h1>
+          <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+     <div class="advantages">
                <ul class="advantages-list">
                     <li class="advantages-item">
-                         <h3 class="advantages-title">НАСТОЯЩИЙ ГОРОДОК</h3>
+                      <div class="index-columns">
+                        <h1 class="advantages-title">НАСТОЯЩИЙ ГОРОДОК</h1>
                          <p class="advantages-description">Седона - не аттракцион для туристов, там течет своя жизнь</p>
                          <img class="photos" src="images/photos/index-view-1.jpg" width="800" height="384" alt="Городской вид." />
                     </li>
-
                     <li class="advantages-item">
                          <h3 class="advantages-title"><b>НЕБОЛЬШАЯ ПЛОЩАДЬ</b></h3>
                          <p class="advantages-description">Все достопримечательности находятся очень близко</p>
@@ -65,10 +72,10 @@
                <ul class="advantages-list">
                     <li class="advantages-item">
                          <img class="photos" src="images/photos/index-view-2.jpg" width="800" height="384" alt="Мост Дьявола." />
-                         <h3 class="advantages-title"><b>ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</b></h3>
+                         <h3 class="advantages-title-1"><b>ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</b></h3>
                          <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
                     </li>
-
+                 <div class="shopping">
                     <li class="advantages-item">
                          <h3 class="advantages-title"><b>Жилье</b></h3>
                          <img class="logo" src="images/logos/house.svg" width="75" height="72" alt="Логотип дома." />
@@ -86,16 +93,19 @@
                          <p class="advantages-description">Не только китайского, но и настоящего местного производства!</p>
                     </li>
                </ul>
+              </div>
+              </div>
+            </div>
                <section class="booking">
-                    <h3><b>ЗАИНТЕРЕСОВАЛИСЬ?</b></h3>
-                    <h5>Укажите преполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</h5>
+                    <h2><b>ЗАИНТЕРЕСОВАЛИСЬ?</b></h2>
+               <p>Укажите преполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
                     <p>
                          <a class="navigation-link" href="hotels.html">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ<img src="#" alt="Отели." /></a>
                     </p>
                </section>
                <section class="contacts">
-                    <h3><b>ПОДПИШИТЕСЬ НА РАССЫЛКУ</b></h3>
-                    <h5>Только полезная информация и никакого спама, честное бойскаутское!</h5>
+                    <h3>ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
+                    <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
                     <form class="mailing-form" action="https://echo.htmlacademy.ru/" method="post">
                          <p class="mailing-form">
                               <input type="text" name="enter-email" placeholder="Ваш e-mail" />
@@ -125,6 +135,7 @@
                     </ul>
                     <section class="contact-phone">
                          <a class="contact-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+                    </section>
                          <section class="site">
                               <a class="button" href="https://htmlacademy.ru">
                                    <span class="visually-hidden">html-academy.</span>
