@@ -30,7 +30,7 @@ html {
   height: 100%;
 }
 body{
-margin: 0;
+margin: 0 auto;
 display: flex;
 flex-direction: column;
 min-height: 100%;
@@ -69,12 +69,15 @@ align-items: start;
 .navigation {
   display: flex;
   width: 1200px;
+  height: 64px;
   margin: 0 auto;
 }
 .navigation-list {
+font-family: "PT Sans";
+font-style: normal;
+font-weight: 700;
 display: flex;
 flex-wrap: wrap;
-width: 507px;
 margin: 0;
 padding: 0;
 display: flex;
@@ -92,7 +95,7 @@ justify-content: space-between;
   background-color: #FFFFFF;
 }
 .navigation-user {
-  font-size: 18px;
+font-size: 18px;
 line-height: 17px;
 max-width: 250px;
 margin-left: auto;
@@ -122,51 +125,83 @@ padding-top: 10px;
 margin: 0 auto;
 padding-bottom: 90px;
 }
+h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+
+}
+.sedona-town {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+}
+
 .advantages-list {
-font-style: normal;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+}
+.true-town {
   display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 20px;
-  width: 1200px;
-  list-style-type: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #82B3D3;
+  color: #FFFFFF;
 }
-.advantages-title {
-  background-color:rgba(131, 179, 211, 0.12)
+.adv {
+  background-color: #82B3D3;
 }
-.advantages-item:nth-child(1) {
-  width: 1200px;
-}
-.advantages-item:nth-child(2) {
-  width: 400px;
-}
-.advantages-item:nth-child(3) {
-  width: 400px;
-}
-.advantages-item:nth-child(4) {
-  width: 400px;
-}
-.index-columns {
+.devils-bridge {
   display: flex;
-  justify-content: space-between;
-  padding: 40px;
-}
-.advantages-item {
-  width: 400px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #82B3D3;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .shopping {
+  background-color:rgba(131, 179, 211, 0.12);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
   list-style-type: none;
   display: flex;
   flex-direction: row;
   text-align: center;
   width: 1200px;
 }
+.burger-back {
+  background-color: #FFFFFF;
+}
+.mailing {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
 .booking {
   text-align: center;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
   width: 1200px;
   margin-top: 81px;
 }
